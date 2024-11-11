@@ -1,0 +1,200 @@
+@font-face {
+    font-family: 'CookieRun-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/CookieRun-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* { margin:0; padding:0; box-sizing: border-box; }
+li { list-style:none; }
+a { text-decoration: none; color:#111; display: block; font-family: 'CookieRun-Regular'; }
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+html, body {overflow-x: hidden;}
+body { font-family: 'CookieRun-Regular' }
+.wrap { width:100%; }
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+header { 
+    width:100%;
+    height:170px;
+    display: flex; 
+    flex-flow:column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    z-index: 100;
+    background-color: white;
+    transition: top 0.5s;
+    position: fixed;
+    top:0;
+}
+header .logo {
+    width:240px;
+    margin: 0 auto;
+}
+
+.s1 {
+    width: 100%;
+    margin-top: 180px;
+
+}
+.s1 .login-area {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+}
+.s1 .login-area .login-sec h3 {
+    font-size: 12px;
+    margin-bottom: 10px;;
+}
+.s1 .login-area .login-sec .input-area {
+    height: 50px;
+    line-height: 2rem;
+    font-size: 30px;
+}
+.s1 .login-area .login-sec .input-btn {
+    margin-top: 5px;
+    width: 100%;
+    height: 3rem;
+    background-color: #222;
+}
+.s1 .login-area .login-sec .input-btn a {
+    display: flex;
+}
+
+.s1 .login-area .login-sec .input-btn a p {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: color 0.4s ease-out;
+}
+.s1 .login-area .login-sec .input-btn:hover {
+    background-color: #999;
+}
+.s1 .login-area .login-sec .input-btn:hover a p {
+    color: #fff;
+    z-index: 200;
+    font-weight: bold;
+}
+.s1 .login-area .login-sec .inter-btn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.s1 .login-area .login-sec .inter-btn .search-btn {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.s1 .login-area .login-sec .inter-btn .search-btn .search-pass {
+    margin-left: 10px;
+    padding: 0 0 0 8px;
+    border-left: 1px solid #666;
+}
+.s1 .login-area .login-sec .inter-btn .join-btn {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    margin-top: 160px;
+}
+footer .footer-top {
+    width: 100%;
+    height: 65px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+footer div .center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+footer .footer-top div ul {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.footer .footer-top div ul li a {
+    font-size: 15px;
+}
+footer .footer-top .info ul li {
+    margin-right: 30px;
+}
+footer .footer-top .info ul li:nth-child(6) {
+    font-weight: bold;
+}
+footer .footer-top .sns ul li {
+    margin-left: 20px;
+    width: 26px;
+}
+footer .footer-bottom{
+    height: 180px;
+}
+footer .footer-bottom .footer-logo {
+    width: 180px;
+}
+footer .footer-bottom address {
+    font-size: 15px;
+    color: #666;
+    font-style: normal;
+    line-height: 30px;
+}
+footer .footer-bottom .family {
+    width: 180PX;
+    position: relative;
+    z-index: 300;
+}
+footer .footer-bottom .family > a {
+    font-size: 15px;
+    color: #666;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #666;
+    padding: 8px 18px;
+    position: relative;
+    z-index: 301;
+}
+footer .footer-bottom .family > a span {
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-bottom .family .sub {
+    position: absolute;
+    bottom: 35px;
+    overflow: hidden;
+    width: 100%;
+    z-index: 300;
+    display: none;
+}
+footer .footer-bottom .family .sub a {
+    font-size: 14px;
+    padding: 12px;
+    border: 1px solid #999;
+    border-bottom: none;
+    background-color: white;
+}
+footer .footer-bottom .family .sub a:hover {
+    background-color: #efefef;
+}

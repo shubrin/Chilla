@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chilla</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/main1.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js'></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="header-top">
+                <div class="center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="center">
+                    <div class="navi-area">
+                        <div class="menu-icon">
+                            <div class="menu-btn">
+                                <a href="#">
+                                    <img src="img/imo/menu-icon.svg" alt="menu-icon">
+                                </a>
+                            </div>
+                            <div class="logo2">
+                                <a href="index.html">
+                                    <img src="img/img/logo.png" alt="logo2">
+                                </a>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">친칠라</a></li>
+                                <li><a href="#">기니피그</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                                <li><a href="#">고객센터</a></li>
+                            </ul>
+                        </nav>
+                        <div class="member">
+                            <ul>
+                                <li><a href="/login.html">LOGIN</a></li>
+                                <li><a href="/join.html">SIGNUP</a></li>
+                                <li><a href="#">
+                                    <span class="search-icon"><img src="img/imo/search.svg" alt="search"></span>
+                                    <span class="close-icon"><img src="img/imo/close.svg" alt="close"></span>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!--center-->
+            </div> <!-- header-bottom-->
+        </header>
+        <section class="s1">
+            <div class="center">
+                <div class="main">
+                    <div class="swiper mainSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="img/img/slide1.jpg" alt="친칠라">
+                                        <p></p>
+                                    </div>
+                                    <div class="txt-box">
+                                        <h2>친칠라 이야기</h2>
+                                        <p>소제목</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="img/img/slide2.jpg" alt="기니피그">
+                                        <p></p>
+                                    </div>
+                                    <div class="txt-box">
+                                        <h2>기니피그 이야기</h2>
+                                        <p>소제목</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="img-box">
+                                        <img src="img/img/slide3.jpg" alt="햄스터">
+                                        <p></p>
+                                    </div>
+                                    <div class="txt-box">
+                                        <h2>햄스터 이야기</h2>
+                                        <p>소제목</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> <!--wrapper-->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-pagination"></div>
+                    </div> <!-- swiper mainSwiper-->
+                </div> <!--main-->
+            </div>
+        </section>
+        <section class="s2">
+            <div class="center">
+                <div class="title">
+                    <h1>친칠라 이야기</h1>
+                    <a href="#">더보기 + <!-- <i><img src="" alt=""></i> --></a>
+                </div> <!-- title-->
+                <div class="container">
+                    <!-- scrolltrigger의 pin영역 -->
+                    <div class="left-con">
+                        <!-- css에서 photo에 hover하면 이미지가 커지는 애니메이션 -->
+                        <div class="photo">
+                            <img src="img/img/img1.jpg" alt="메인">
+                        </div>
+                        <p>어서와, 친칠라는 처음이지?</p>
+                    </div>
+                    <div class="right-con">
+                        <!-- short 클래스는 높이 : 300-->
+                        <!-- long 클래스는 높이 : 400-->
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/img/img2.jpg" alt="main">
+                                </div>
+                                <p>빵실빵실</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/img/img4.jpg" alt="main">
+                                </div>
+                                <p>옴뇸뇸</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/img/img8.png" alt="main">
+                                </div>
+                                <p>에휴..집사가 청소를 안 하네..</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo long">
+                                    <img src="img/img/img3.jpg" alt="main">
+                                </div>
+                                <p>졸려어~</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/img/img5.jpg" alt="main">
+                                </div>
+                                <p>여긴 너무 좁잖아!</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/img/img7.png" alt="main">
+                                </div>
+                                <p>오?! 집사당!! ㅎㅎ</p>
+                            </a>
+                        </div>
+                        <div class="photo-box ">
+                            <a href="#">
+                                <div class="photo short">
+                                    <img src="img/img/img9.png" alt="main">
+                                </div>
+                                <p>으아앙ㅠㅠ나가고 싶어ㅠㅠ</p>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--container-->
+            </div> <!--center-->
+        </section>
+        <section class="s3">
+            <div class="center">
+                <div class="title">
+                    <h1>친칠라의 공간</h1>
+                </div>
+                <div class="container">
+                    <div class="swiper gallerySlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section3 slide1.jpg" alt="sec3">
+                                    </div>
+                                    <p>친칠라 사육장</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section3 slide2.jpg" alt="sec3">
+                                    </div>
+                                    <p>친칠라 사료</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section3 slide5.jpg" alt="sec3">
+                                    </div>
+                                    <p>친칠라 간식</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section3 slide4.jpg" alt="sec3">
+                                    </div>
+                                    <p>친칠라 모래</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section3 slide3.jpg" alt="sec3">
+                                    </div>
+                                    <p>친칠라 집</p>
+                                </a>
+                            </div>
+                        </div> <!--wrapper-->
+                        <div class="swiper-scrollbar">
+                        </div>
+                    </div> <!--swiper1-->
+                </div> <!--container-->
+            </div>
+        </section>
+        <section class="s4">
+            <div class="center">
+                <div class="title">
+                    <h1>기니피그 이야기</h1>
+                    <a href="#">더보기 +<!--<i><img src="" alt=""></i>--></a>
+                </div>
+                <div class="container">
+                    <div class="left-con">
+                        <a href="#">
+                            <div class="photo">
+                                <img src="img/img/section5 img1.jpg" alt="main">
+                            </div>
+                            <p>뀨익?!</p>
+                        </a>
+                    </div>
+                    <div class="right-con">
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo middle">
+                                    <img src="img/img/sec4 img2.jpg" alt="main">
+                                </div>
+                                <p>방울토마토 쿠허업!</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo middle">
+                                    <img src="img/img/sec4 img3.jpg" alt="main">
+                                </div>
+                                <p>뭘봐?</p>
+                            </a>
+                        </div>
+                        <div class="photo-box">
+                            <a href="#">
+                                <div class="photo middle">
+                                    <img src="img/img/sec4 img4.jpg" alt="main">
+                                </div>
+                                <p>여기있으면 못찾겠지?</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s5">
+            <div class="center">
+                <div class="title">
+                    <h1>기니피그의 공간</h1>
+                </div>
+                <div class="container">
+                    <div class="swiper gallerySlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section5 slide1.jpg" alt="sec3">
+                                    </div>
+                                    <p>기니피그 사육장</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section5 slide4.jpg" alt="sec3">
+                                    </div>
+                                    <p>기니피그 건초</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section5 slide2.jpg" alt="sec3">
+                                    </div>
+                                    <p>기니피그 간식</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section5 slide6.jpg" alt="sec3">
+                                    </div>
+                                    <p>기니피그 이갈이</p>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <div class="photo">
+                                        <img src="img/img/section5 slide5.jpg" alt="sec3">
+                                    </div>
+                                    <p>기니피그 집</p>
+                                </a>
+                            </div>
+                        </div> <!--wrapper-->
+                        <div class="swiper-scrollbar">
+                        </div>
+                    </div> <!--swiper1-->
+                </div>
+            </div>
+        </section>
+        <section class="text1">
+            <!-- 흐르는 글자 -->
+            <div class="text-ani">
+                <div class="text-wrap">
+                    <p> Hamster &amp;&nbsp;&nbsp; </p>
+                    <p> Hamster &amp;&nbsp;&nbsp; </p>
+                    <p> Hamster &amp;&nbsp;&nbsp; </p>
+                    <p> Hamster &amp;&nbsp;&nbsp; </p>
+                    <p> Hamster &amp;&nbsp;&nbsp; </p>
+                    <p> Hamster &amp;&nbsp;&nbsp; </p>
+                    <p> Hamster &amp;&nbsp;&nbsp; </p>
+                </div>
+            </div> <!--text-ani -->
+        </section> <!-- s3 -->
+        <section class="s6">
+            <div class="center">
+                <div class="container">
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/img/sec6 img1.jpg" alt="main">
+                            </div>
+                            <p>text3</p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/img/sec6 img2.jpg" alt="main">
+                            </div>
+                            <p>text2</p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/img/sec6 img3.jpg" alt="main">
+                            </div>
+                            <p>text5</p>
+                        </a>
+                    </div>
+                    <div class="photo-box">
+                        <a href="#">
+                            <div class="photo exam">
+                                <img src="img/img/sec6 img4.jpg" alt="main">
+                            </div>
+                            <p>text1</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="s7">
+            <div class="center">
+                <div class="container">
+                    <div class="logo-icon">
+                        <img src="img/img/logo.png" alt="logoi">
+                    </div>
+                    <p>실시간으로 업데이트되는 칠라의 최신소식</p>
+                    <a href="#">팔로우하기 +</a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-top">
+                <div class="center">
+                    <div class="info">
+                        <ul>
+                            <li><a href="#">칠라 소개</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">파트너</a></li>
+                            <li><a href="#">저작권 정책</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">이메일 무단수집금지</a></li>
+                            <li><a href="#">윤리경영</a></li>
+                        </ul>
+                    </div>
+                    <div class="sns">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                <img src="img/imo/icon-facebook.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                <img src="img/imo/icon-instagram.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                <img src="img/imo/icon-youtube.svg" alt="youtube">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                <img src="img/imo/icon-kakao.svg" alt="kakao">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                <img src="img/imo/icon-x.svg" alt="x">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="center">
+                    <div class="footer-logo">
+                        <img src="img/img/logo.png" alt="logo">
+                    </div>
+                    <address>
+                        서울시 종로구 상정로 37 TEL 02-3704-3104 Fax 02-3704-3149<br>Copyright @칠라.All right Reserved.
+                    </address>
+                    <div class="family">
+                        <a href="#">
+                            <p>패밀리 사이트</p>
+                            <span>
+                                <img src="img/imo/down_arrow_icon.svg" alt="down">
+                            </span>
+                        </a>
+                        <div class="sub">
+                            <a href="#">sub 1</a>
+                            <a href="#">sub 2</a>
+                            <a href="#">sub 3</a>
+                            <a href="#">sub 4</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="sitemap">
+            <div class="sitemap-in">
+                <a href="#" class="close-btn"><img src="img/imo/close.svg" alt="close"></a>
+                <div class="sitebox">
+                <ul>
+                <div class="memberbox">
+                    <ul>
+                        <li><a href="login.html">LOGIN</a></li>
+                        <li><a href="join.html">SIGNUP</a></li>
+                    </ul>
+                </div><!-- memberbox -->
+                <div class="menu1">
+                    <ul>
+                        <li><a href="#">공유하기</a></li>
+                        <li><a href="#">마음가짐</a></li>
+                        <li><a href="#">소동물 동물병원</a></li>
+                    </ul>
+                </div><!-- menu1 -->
+                <div class="menu2">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p>Chilla 이야기</p>
+                                <i>
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                </i>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="#">Chilla 소개</a></li>
+                                <li><a href="#">Chilla 특징</a></li>
+                                <li><a href="#">Chilla 카페</a></li>
+                                <li><a href="#">Chilla 브이로그</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </li><!-- Chilla 이야기 -->
+                        <li>
+                            <a href="#">
+                                <p>친칠라</p>
+                                <i>
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                </i>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="#">친칠라 소개</a></li>
+                                <li><a href="#">친칠라의 특징</a></li>
+                                <li><a href="#">친칠라의 매력</a></li>
+                                <li><a href="#">친칠라의 공간</a></li>
+                                <li><a href="#">Q&A</a></li>
+                            </ul>
+                        </li><!-- 친칠라 -->
+                        <li>
+                            <a href="#">
+                                <p>기니피그</p>
+                                <i>
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                </i>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="#">기니피그 소개</a></li>
+                                <li><a href="#">기니피그의 특징</a></li>
+                                <li><a href="#">기니피그의 매력</a></li>
+                                <li><a href="#">기니피그의 공간</a></li>
+                                <li><a href="#">Q&A</a></li>
+                            </ul>
+                        </li><!-- 기니피그 -->
+                        <li>
+                            <a href="#">
+                                <p>햄스터</p>
+                                <i>
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                </i>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="#">햅스터 소개</a></li>
+                                <li><a href="#">햅스터의 특징</a></li>
+                                <li><a href="#">햄스터의 매력</a></li>
+                                <li><a href="#">햄스터의 공간</a></li>
+                                <li><a href="#">Q&A</a></li>
+                            </ul>
+                        </li><!-- 한복 -->
+                        <li>
+                            <a href="#">
+                                <p>Chilla 고객지원</p>
+                                <i>
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                </i>
+                            </a>
+                            <ul class="sub">
+                                <li><a href="#">고객센터</a></li>
+                                <li><a href="#">고객문의</a></li>
+                                <li><a href="#">자주하는 질문</a></li>
+                            </ul>
+                        </li><!--대한민국 세계유산-->
+                    </ul>
+                </div><!-- menu2 -->
+                <div class="sns">
+                    <ul>
+                        <li><a href="#"><img src="img/imo/icon-facebook.svg" alt="facebook"></a></li>
+                        <li><a href="#"><img src="img/imo/icon-instagram.svg" alt="instagram"></a></li>
+                        <li><a href="#"><img src="img/imo/icon-youtube.svg" alt="youtube"></a></li>
+                        <li><a href="#"><img src="img/imo/icon-kakao.svg" alt="kakao story"></a></li>
+                        <li><a href="#"><img src="img/imo/icon-x.svg" alt="X"></a></li>
+                    </ul>
+                </div>
+                </ul>
+                </div><!-- sitebox -->
+        </div><!--sitemap-in-->
+        <div class="sitemap-bg"></div>
+        </div><!-- sitemap -->
+        <div class="search-area">
+            <div class="search-bg"></div>
+            <div class="search-in">
+                <div class="input-area">
+                    <input type="search" name="search"
+                    placeholder="검색어를 입력해 주세요.">
+                    <button type="button">
+                        <img src="img/imo/search.svg" alt="검색">
+                    </button>
+                </div><!--input-area-->
+            </div><!--search-in-->
+        </div><!--search-area-->
+    </div><!-- wrap -->
+    <div class="top"><a href="#">TOP</a></div>
+</body>
+</html>
